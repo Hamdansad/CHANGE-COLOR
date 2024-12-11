@@ -1,0 +1,40 @@
+body{
+    margin-inline: auto;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#outputs {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 10%;
+    border: none;
+    height: 10%;
+    border-radius: 30px;
+    box-shadow:  1px 1px 5px black;
+}
+#outputs:hover{
+    box-shadow: 1px 1px 5px gray;
+}
+@media(max-width:1440px){
+    #outputs{
+        width: 15%;
+    }
+}
+@media(max-width:1025px){
+    #outputs{
+        width: 20%;
+    }
+}
+@media(max-width:769px){
+    #outputs{
+        width: 30%;
+    }
+}
+@media(max-width:427px){
+    #outputs{
+        width: 40%;
+    }
+}

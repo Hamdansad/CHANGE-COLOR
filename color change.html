@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button Function Example</title>
+  <link rel="stylesheet" href="color change.css">
+</head>
+<body id="bgcolor">
+  <button id="outputs" onclick="sayHello()">Click Me!</button>
+    
+  <script>
+    const button=document.getElementById("outputs")
+    const bg=document.getElementById("bgcolor")
+    
+    let count=0;
+   function sayHello(){
+    
+count++
+
+    if(count===1){
+    
+    bg.style.background='red'
+    
+      
+    }
+    else if(count===2){
+    
+    bg.style.background='blue'
+
+    }
+    else if(count===3){
+   
+    bg.style.background='pink'
+
+    }
+    else{
+      
+      bg.style.background='white'
+
+    }
+   }
+    
+  </script>
+</body>
+</html>
